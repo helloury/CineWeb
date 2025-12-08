@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Filmes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header><h1>Cadastro de Filmes</h1></header>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="cadastro-filmes.html">Cadastrar Filmes</a>
+        <a href="cadastro-salas.html">Cadastrar Salas</a>
+        <a href="cadastro-sessoes.html">Cadastrar Sessões</a>
+        <a href="listagem-sessoes.html">Sessões Disponíveis</a>
+        <a href="venda-ingressos.html">Venda de Ingressos</a>
+    </nav>
+
+    <div class="container">
+        <h2>Novo Filme</h2>
+        <form id="form-filme">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" required>
+
+            <label for="genero">Gênero:</label>
+            <input type="text" id="genero" required>
+
+            <label for="dataEstreia">Data de Estreia:</label>
+            <input type="date" id="dataEstreia" required>
+
+            <label for="duracao">Duração (minutos):</label>
+            <input type="number" id="duracao" min="1" required>
+
+            <label for="classificacao">Classificação:</label>
+            <input type="text" id="classificacao" placeholder="Ex: 12 anos, Livre" required>
+            
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" rows="4"></textarea>
+
+            <button type="submit">Salvar Filme</button>
+        </form>
+
+        <hr>
+
+        <h2>Filmes Cadastrados</h2>
+        <div id="lista-filmes">
+            </div>
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/cadastro-filmes.js"></script>
+</body>
+</html>
