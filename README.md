@@ -46,7 +46,7 @@ O coração do sistema. Um modal de vendas integrado que oferece:
 
 ---
 
-## 📂 Estrutura do Projeto (Clean Architecture)
+## 📂 Estrutura do Projeto 
 
 O projeto segue uma estrutura organizada para facilitar a escalabilidade e manutenção:
 
