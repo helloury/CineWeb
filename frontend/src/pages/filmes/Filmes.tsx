@@ -10,7 +10,7 @@ import { Button } from '../../components/Button';
 
 export function Filmes() {
     const [filmes, setFilmes] = useState<Filme[]>([]);
-    const [generos, setGeneros] = useState<Genero[]>([]); // Estado para lista de gêneros
+    const [generos, setGeneros] = useState<Genero[]>([]); 
 
     const { register, handleSubmit, formState: { errors }, reset } = useForm<FilmeForm>({
         resolver: zodResolver(filmeSchema)
@@ -56,7 +56,6 @@ export function Filmes() {
                         className={`form-select ${errors.genero ? 'is-invalid' : ''}`}
                     >
                         <option value="">Selecione...</option>
-                        {/* Aqui ele desenha as opções baseadas no banco de dados */}
                         {generos.map(g => (
                             <option key={g.id} value={g.nome}>{g.nome}</option>
                         ))}
