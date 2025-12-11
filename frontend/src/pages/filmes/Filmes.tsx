@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { api } from '../../services/api';
-import type { Filme, Genero } from '../../types'; // Importamos Genero
+import type { Filme, Genero } from '../../types/index'; // Importamos Genero
 import { filmeSchema } from '../../models/schemas';
 import type { FilmeForm } from '../../models/schemas';
 import { Input } from '../../components/Input';

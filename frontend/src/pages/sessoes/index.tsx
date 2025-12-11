@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { api } from '../../services/api';
-import type { SessaoExpandida, Filme, Sala, LancheCombo } from '../../types';
+import type { SessaoExpandida, Filme, Sala, LancheCombo } from '../../types/index';
 import { sessaoSchema } from '../../models/schemas';
 import type { SessaoForm } from '../../models/schemas';
 import { Input } from '../../components/Input';

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { api } from '../../services/api';
-import type{ SessaoExpandida, LancheCombo, ItemLanchePedido } from '../../types';
+import type { SessaoExpandida, LancheCombo, ItemLanchePedido } from '../../types/index';
 import { Button } from '../../components/Button';
 
 interface VendaModalProps {

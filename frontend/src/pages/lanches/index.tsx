@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { api } from '../../services/api';
-import type { LancheCombo } from '../../types';
+import type { LancheCombo } from '../../types/index';
 import { lancheSchema } from '../../models/schemas';
 import type { LancheForm } from '../../models/schemas';
 import { Input } from '../../components/Input';

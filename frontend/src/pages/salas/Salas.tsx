@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { api } from '../../services/api';
-import type { Sala } from '../../types';
+import type { Sala } from '../../types/index';
 import { salaSchema } from '../../models/schemas';
 import type { SalaForm } from '../../models/schemas';
 import { calcularCapacidade, gerarMatriz } from '../../models/logic';
