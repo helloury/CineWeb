@@ -1,0 +1,58 @@
+{
+  "generos": [
+    {
+      "id": "1",
+      "nome": "Ação"
+    },
+    {
+      "id": "2",
+      "nome": "Comédia"
+    },
+    {
+      "id": "3",
+      "nome": "Drama"
+    },
+    {
+      "id": "4",
+      "nome": "Terror"
+    },
+    {
+      "id": "5",
+      "nome": "Ficção Científica"
+    },
+    {
+      "id": "6",
+      "nome": "Romance"
+    },
+    {
+      "id": "7",
+      "nome": "Animação"
+    },
+    {
+      "id": "8",
+      "nome": "Documentário"
+    },
+    {
+      "id": "9",
+      "nome": "Fantasia"
+    },
+    {
+      "id": "10",
+      "nome": "Musical"
+    },
+    {
+      "id": "11",
+      "nome": "Suspense"
+    },
+    {
+      "id": "12",
+      "nome": "Aventura"
+    }
+  ],
+  "filmes": [],
+  "salas": [],
+  "lanches": [],
+  "sessoes": [],
+  "ingressos": [],
+  "pedidos": []
+}
